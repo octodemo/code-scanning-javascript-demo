@@ -78,7 +78,7 @@ There is a [number of events](https://docs.github.com/en/free-pro-team@latest/ac
 - pull request to merge to _main_ branch
 - on schedule, at 6:33 every Thursday
 
-Setting up new workflow and committing it to _main_ branch will trigger CodeQL GitHub Action.
+Setting up the new CodeQL workflow and committing it to _main_ branch in the step above will trigger the scan.
 
 </p>
 </details>
