@@ -98,6 +98,7 @@ Click `Actions` tab -> `CodeQL`
 
 Click the specific workflow run. You can view the progress of the Workflow run until the analysis completes.
 
+<img src="https://user-images.githubusercontent.com/59625655/98617230-b374d180-2352-11eb-8d84-cd0af64387e2.png" width="80%"/>
 
 </p>
 </details>
