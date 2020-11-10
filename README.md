@@ -78,11 +78,8 @@ There is a [number of events](https://docs.github.com/en/free-pro-team@latest/ac
 - pull request to merge to _main_ branch
 - on schedule, at 6:33 every Thursday
 
-Trigger the workflow by editing a file, README.md for example, and either committing to main branch or creating a new branch and a pull request.
+Setting up new workflow and committing it to _main_ branch will trigger CodeQL GitHub Action.
 
-<img src="https://user-images.githubusercontent.com/6920330/96746940-b143d680-1395-11eb-9778-0891525a39c1.png" width="80%"/>
-
-Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branch.
 </p>
 </details>
 
