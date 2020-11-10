@@ -62,7 +62,7 @@ The Actions Workflow file contains a number of different sections including:
 
 <img src="https://user-images.githubusercontent.com/6920330/96746940-b143d680-1395-11eb-9778-0891525a39c1.png" width="80%"/>
 
-Click `Start Commit` -> `Commit this file` to commit the changes.
+Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branch.
 </p>
 </details>
 
