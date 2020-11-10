@@ -74,6 +74,9 @@ Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branc
 #### Workflow triggers
 
 There is a [number of events](https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows) that can trigger GitHub Actions workflow. In this example, the workflow will be triggered on
+
+<img src="https://user-images.githubusercontent.com/59625655/98617067-49f4c300-2352-11eb-9618-d8151e1e62eb.png" width="50%"/>
+
 - push to _main_ branch
 - pull request to merge to _main_ branch
 - on schedule, at 6:33 every Thursday
