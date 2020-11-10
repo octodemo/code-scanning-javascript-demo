@@ -67,6 +67,27 @@ Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branc
 </details>
 
 <details>
+  
+<summary>Workflow triggers</summary>
+<p>
+
+#### Workflow triggers
+
+There is a [number of events](https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows) that can trigger GitHub Actions workflow. In this example, the workflow will be triggered on
+- push to _main_ branch
+- pull request to merge to _main_ branch
+- on schedule, at 6:33 every Thursday
+
+Trigger the workflow by editing a file, README.md for example, and either committing to main branch or creating a new branch and a pull request.
+
+<img src="https://user-images.githubusercontent.com/6920330/96746940-b143d680-1395-11eb-9778-0891525a39c1.png" width="80%"/>
+
+Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branch.
+</p>
+</details>
+
+
+<details>
 <summary>GitHub Actions Progress</summary>
 
 <p>
@@ -77,7 +98,6 @@ Click `Actions` tab -> `CodeQL`
 
 Click the specific workflow run. You can view the progress of the Workflow run until the analysis completes.
 
-<img src="https://user-images.githubusercontent.com/6920330/96748337-64f99600-1397-11eb-9ab7-b78ec23466ae.png" width="80%"/>
 
 </p>
 </details>
