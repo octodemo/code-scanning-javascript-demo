@@ -62,9 +62,30 @@ The Actions Workflow file contains a number of different sections including:
 
 <img src="https://user-images.githubusercontent.com/6920330/96746940-b143d680-1395-11eb-9778-0891525a39c1.png" width="80%"/>
 
-Click `Start Commit` -> `Commit this file` to commit the changes.
+Click `Start Commit` -> `Commit this file` to commit the changes to _main_ branch.
 </p>
 </details>
+
+<details>
+  
+<summary>Workflow triggers</summary>
+<p>
+
+#### Workflow triggers
+
+There are a [number of events](https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows) that can trigger a GitHub Actions workflow. In this example, the workflow will be triggered on
+
+<img src="https://user-images.githubusercontent.com/59625655/98617067-49f4c300-2352-11eb-9618-d8151e1e62eb.png" width="50%"/>
+
+- push to _main_ branch
+- pull request to merge to _main_ branch
+- on schedule, at 6:33 every Thursday
+
+Setting up the new CodeQL workflow and committing it to _main_ branch in the step above will trigger the scan.
+
+</p>
+</details>
+
 
 <details>
 <summary>GitHub Actions Progress</summary>
@@ -77,7 +98,7 @@ Click `Actions` tab -> `CodeQL`
 
 Click the specific workflow run. You can view the progress of the Workflow run until the analysis completes.
 
-<img src="https://user-images.githubusercontent.com/6920330/96748337-64f99600-1397-11eb-9ab7-b78ec23466ae.png" width="80%"/>
+<img src="https://user-images.githubusercontent.com/59625655/98617230-b374d180-2352-11eb-8d84-cd0af64387e2.png" width="80%"/>
 
 </p>
 </details>
